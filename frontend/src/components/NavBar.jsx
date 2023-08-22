@@ -2,7 +2,7 @@ import {useState} from 'react';
 import {AppBar, Toolbar, IconButton, Typography, Drawer, List, ListItem, ListItemText} from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 
-const Navbar = ({title = 'Zoo App', menuItems = [], onNavigate}) => {
+const Navbar = ({title = 'Zoo NSK', menuItems = [], onNavigate}) => {
     const [drawerOpen, setDrawerOpen] = useState(false);
 
     // Function to toggle the state of the drawer (menu)
