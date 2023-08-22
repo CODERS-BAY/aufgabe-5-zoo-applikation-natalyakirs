@@ -5,12 +5,10 @@ import MenuIcon from '@mui/icons-material/Menu';
 const Navbar = ({title = 'Zoo App', menuItems = [], onNavigate}) => {
     const [drawerOpen, setDrawerOpen] = useState(false);
 
+    // Function to toggle the state of the drawer (menu)
     const handleDrawerToggle = () => {
         setDrawerOpen(!drawerOpen);
     };
-    function hangahook() {
-
-    }
     const handleNavigation = (path) => {
         onNavigate(path);
         setDrawerOpen(false);

@@ -1,15 +1,15 @@
+
 using System.Text.Json; 
- 
-namespace ZooAPI 
-{ 
-    using ZooAPI.Controller; 
-    using ZooAPI.Model; 
-    using ZooAPI.Service; 
-    using Microsoft.AspNetCore.Builder; 
-    using Microsoft.AspNetCore.Http; 
-    using Microsoft.Extensions.DependencyInjection; 
-    using Microsoft.OpenApi.Models; 
- 
+using ZooAPI.Controller; 
+using ZooAPI.Model; 
+using ZooAPI.Service; 
+using Microsoft.AspNetCore.Builder; 
+using Microsoft.AspNetCore.Http; 
+using Microsoft.Extensions.DependencyInjection; 
+using Microsoft.OpenApi.Models; 
+
+ namespace ZooAPI 
+ { 
     public class Program 
     { 
         public static void Main(string[] args) 
