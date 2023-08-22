@@ -1,19 +1,18 @@
 ﻿namespace ZooAPI.model;
 
-public class Animal : IComparable<Animal>
+public class Animal 
 {
-    public int CompareTo(Animal? other)
+    // Constructor
+    public Animal(int id, string species, string food, int enclosureId)
     {
-        throw new NotImplementedException();
+        Id = id; // Animal ID
+        Species = species; // Animal species 
+        Food = food; // Food of the animal
+        EnclosureId = enclosureId; // ID of the enclosure the animal is in
     }
 
-    public override bool Equals(object? obj)
-    {
-        throw new NotImplementedException();
-    }
-
-    public override string ToString()
-    {
-        throw new NotImplementedException();
-    }
+    public int Id { get; set; } // animal ID
+    public string Species { get; set; } // animal species
+    public string Food { get; set; } // animal food
+    public int EnclosureId { get; set; } // enclosure ID
 }

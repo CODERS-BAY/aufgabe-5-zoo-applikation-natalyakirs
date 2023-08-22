@@ -92,7 +92,7 @@ Wobei nur react verpflichtend einzusetzen ist. Das Frontend darf gerne gut ausse
 
 Alle Dependencies, die benötigt werden, sind bereits eingebunden.
 
-![Dependencies](./img/dep.png)
+![Dependencies](../img/dep.png)
 
 Der Json Serializier wurde durch die Implementierung von ASP.NET Core ersetzt. Darum muss auch nicht mehr der Content
 Type gesetzt. Die MySql Datentypen sind auch schon enthalten.
@@ -110,4 +110,4 @@ Type gesetzt. Die MySql Datentypen sind auch schon enthalten.
 
 Nicht vergessen, HTTP auszuwählen.
 
-![Run project](img/run.png)
+![Run project](../img/run.png)
