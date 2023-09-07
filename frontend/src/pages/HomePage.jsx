@@ -12,7 +12,7 @@ const HomePage = () => {
                     mt: 8,
                     mb: 4,
                     textAlign: 'center',
-                    backgroundImage: 'url("../../assets/zoo-background.jpg")',
+                    backgroundImage: 'url("../../assets/backgroundImage.jpg")',
                     backgroundSize: 'cover',
                     backgroundRepeat: 'no-repeat',
                     backgroundPosition: 'center center',
@@ -33,7 +33,7 @@ const HomePage = () => {
                     sx={{
                         p: 4,
                         borderRadius: 2,
-                        backgroundColor: 'rgba(255, 255, 255, 0.9)',
+                        backgroundColor: 'rgba(241, 117, 181, 0.8)',
                         width: '70%',
                         maxWidth: '1344px',
                         transition: 'transform 0.3s',
@@ -43,7 +43,7 @@ const HomePage = () => {
                     }}
                 >
                     <Typography variant="h5" gutterBottom>
-                        Welcome to our zoo!
+                        Welcome to our zoo - the best zoo in Siberia!
                     </Typography>
                     <ServiceList/>
                 </Paper>

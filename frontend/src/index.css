@@ -16,11 +16,11 @@
 
 a {
     font-weight: 500;
-    color: #4a7c40; /* Green color reminiscent of foliage */
+    color: rgba(59, 46, 53, 0.8); 
     text-decoration: inherit;
 }
 a:hover {
-    color: #3a5c30; /* Darker green for hover effect */
+    color: rgba(64, 45, 55, 0.8); 
 }
 
 body {
@@ -38,17 +38,17 @@ h1 {
 
 button {
     border-radius: 8px;
-    border: 1px solid #4a7c40; /* Green border */
+    border: 1px solid rgba(232, 33, 136, 0.8); 
     padding: 0.6em 1.2em;
     font-size: 1em;
     font-weight: 500;
     font-family: inherit;
-    background-color: #e7e3d6; /* Light tan for buttons */
+    background-color: #e7e3d6; 
     cursor: pointer;
     transition: border-color 0.25s;
 }
 button:hover {
-    border-color: #3a5c30; /* Darker green for hover effect */
+    border-color: rgba(232, 33, 136, 0.8); 
 }
 button:focus,
 button:focus-visible {
@@ -61,7 +61,7 @@ button:focus-visible {
         background-color: #f4f1e8; /* Keeping the light tan background */
     }
     a:hover {
-        color: #3a5c30; /* Keeping the darker green for hover effect */
+        color: rgba(232, 33, 136, 0.8); 
     }
     button {
         background-color: #e7e3d6; /* Keeping the light tan for buttons */
@@ -76,6 +76,6 @@ button:focus-visible {
         color: #a3c6a3; /* Lighter green for hover effect */
     }
     button {
-        background-color: #3a5c30; /* Darker green for buttons */
+        background-color: rgba(232, 33, 136, 0.8); 
     }
 }

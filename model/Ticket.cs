@@ -1,19 +1,27 @@
-﻿namespace ZooAPI.model;
-
-public class Ticket : IComparable<Ticket>
+﻿namespace ZooAPI.Model
 {
-    public int CompareTo(Ticket? other)
+    // Ticket-Modell
+    public class Ticket
     {
-        throw new NotImplementedException();
+        public int Id { get; set; } // Ticket-ID
+        public TicketType Type { get; set; } // Ticket types (Children, Adult, Senior)
+        public decimal Price { get; set; } // The price  of the ticket
+        public DateTime DateOfSale { get; set; } // Date of sale of the ticket
     }
 
-    public override bool Equals(object? obj)
+    // Prices of different types of tickets
+    public class TicketPrices
     {
-        throw new NotImplementedException();
+        public decimal Children { get; set; } // Price for children
+        public decimal Adult { get; set; } // Price for adult
+        public decimal Senior { get; set; } // Price for senior
     }
 
-    public override string ToString()
+    // Ticket types
+    public enum TicketType
     {
-        throw new NotImplementedException();
+        Children, // Children ticket = 1
+        Adult, // Adult ticket = 2
+        Senior // Senior ticket = 3
     }
 }

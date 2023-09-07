@@ -1,8 +1,5 @@
 ﻿// Using Directives
-using System;
 using System.Data;
-using System.Threading.Tasks;
-using Microsoft.Extensions.Configuration;
 using MySqlConnector;
 
 
@@ -22,7 +19,7 @@ namespace ZooAPI.Controller
         }
 
         
-        // Overloaded constructor with connection string and configuration
+        // Constructor with connection string and configuration
         public DBConnection(string connectionString, IConfiguration configuration)
         {
             _connectionString = connectionString;
@@ -34,7 +31,7 @@ namespace ZooAPI.Controller
             //Check if connection string is valid
             if (string.IsNullOrWhiteSpace(_connectionString))
             {
-                throw new Exception($"Connection string is undefined!");
+                throw new Exception($"Connection string is undefined" +$".");
             }
             
             var conn = new MySqlConnection(_connectionString); // Create a new connection object

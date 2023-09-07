@@ -16,7 +16,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="frontend\src\assets\" />
+      <Folder Include="frontend\src\assets\animalImages\" />
     </ItemGroup>
 
 
